@@ -16,12 +16,12 @@ O **Sistema Clínica Vitalis** é uma aplicação voltada para a gestão e autom
 
 ## 🎯 2. Módulos do Sistema
 O sistema é estruturado nos seguintes módulos fundamentais:
-- 👥 **[Cadastro de Pacientes](./sitema_De_Clinica_Medica/cadastro_Paciente.html):** Gestão de dados pessoais, contatos e histórico.
-- 👨‍⚕️ **[Cadastro de Médicos](./sitema_De_Clinica_Medica/cadastro_Medico.html):** Registro de profissionais, CRM e especialidades.
-- 📅 **[Agenda e Agendamento](./sitema_De_Clinica_Medica/agenda.html):** Controle de horários e datas com calendário e grade semanal.
-- 📋 **[Prontuário Eletrônico](./sitema_De_Clinica_Medica/prontuario.html):** Anotações clínicas, sinais vitais e histórico de consultas.
-- 📊 **[Relatórios e Painel](./sitema_De_Clinica_Medica/relatorios.html):** Visualização de dados agregados e consultas por período.
-- 🏠 **[Página Inicial / Dashboard](./sitema_De_Clinica_Medica/index.html):** Visão geral do sistema.
+- 👥 **[Cadastro de Pacientes](./sistema_de_Clinica_Medica/cadastro_Paciente.html):** Gestão de dados pessoais, contatos e histórico.
+- 👨‍⚕️ **[Cadastro de Médicos](./sistema_de_Clinica_Medica/cadastro_Medico.html):** Registro de profissionais, CRM e especialidades.
+- 📅 **[Agenda e Agendamento](./sistema_de_Clinica_Medica/agenda.html):** Controle de horários e datas com calendário e grade semanal.
+- 📋 **[Prontuário Eletrônico](./sistema_de_Clinica_Medica/prontuario.html):** Anotações clínicas, sinais vitais e histórico de consultas.
+- 📊 **[Relatórios e Painel](./sistema_de_Clinica_Medica/relatorios.html):** Visualização de dados agregados e consultas por período.
+- 🏠 **[Página Inicial / Dashboard](./sistema_de_Clinica_Medica/index.html):** Visão geral do sistema.
 
 ---
 
@@ -60,7 +60,7 @@ A etapa de prototipação foi realizada por meio de **Wireframes de Baixa Fideli
 
 ## 💻 4. Arquitetura e Tecnologia Front-end (Fase B)
 A implementação da interface segue os padrões estritos do HTML5 e CSS3:
-- **Estilização Global:** [📄 Arquivo CSS Global (`style.css`)](./sitema_De_Clinica_Medica/style.css)
+- **Estilização Global:** [📄 Arquivo CSS Global (`style.css`)](./sistema_de_Clinica_Medica/style.css)
 - **Semântica HTML5:** Utilização de `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, `<aside>` e `<form>`.
 - **CSS Grid Layout:** Macro-estruturação dos contêineres principais (menu lateral vs. área de conteúdo).
 - **CSS Flexbox:** Alinhamento bidimensional de componentes (cards, botões, itens de menu e formulários).
@@ -71,7 +71,7 @@ A implementação da interface segue os padrões estritos do HTML5 e CSS3:
 ## 🗄️ 5. Banco de Dados (MySQL)
 O banco de dados relacional `clinica_vitalis` foi modelado para suportar todas as operações da clínica.
 
-> 🗃️ **Script de Criação:** [📄 Clique aqui para visualizar o código SQL (`Sistema_Clinica_Medica.sql`)](./sitema_De_Clinica_Medica/Sistema_Clinica_Medica.sql)
+> 🗃️ **Script de Criação:** [📄 Clique aqui para visualizar o código SQL (`Sistema_Clinica_Medica.sql`)](./sistema_de_Clinica_Medica/Sistema_Clinica_Medica.sql)
 
 ### 📐 Estrutura de Tabelas e Entidades:
 * `especialidades`: Registro das áreas médicas.
